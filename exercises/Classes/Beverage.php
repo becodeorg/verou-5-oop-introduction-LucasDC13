@@ -2,9 +2,9 @@
 class Beverage
 {
     // Properties
-    private $color;
-    private $price;
-    private $temperature;
+    protected $color;
+    protected $price;
+    protected $temperature;
 
     // Constructor 
     public function __construct(string $color, float $price)

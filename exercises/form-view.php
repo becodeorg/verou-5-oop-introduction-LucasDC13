@@ -11,6 +11,7 @@
     <p><?= $beverage2->getColor(); ?></p>
     <?php $beverage2->setColor("light");?>
     <p><?= $beverage2->getColor(); ?></p>
+    <p><?= $beverage2->getBeerInfo(); ?></p>
 
 </body>
 </html>
